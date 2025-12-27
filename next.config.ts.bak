@@ -1,0 +1,7 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  // Se vires avisos de "allowedDevOrigins", podes configurar aqui depois
+};
+
+export default nextConfig;

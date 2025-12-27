@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --card-bg: rgba(23, 23, 23, 0.7);
+  --accent: #4ade80; /* Verde Emergent */
+}
+
+body {
+  background: radial-gradient(circle at 50% 0%, #171717 0%, #0a0a0a 100%);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+}
